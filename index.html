@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kaizen Books</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#0b0b0b;color:#fff}
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 20px;
+background:#111;
+border-bottom:1px solid #ff9800;
+position:sticky;
+top:0;
+}
+.logo{font-size:28px;font-weight:bold;color:#ff9800}
+nav a{
+color:#fff;
+text-decoration:none;
+margin-left:15px;
+}
+.hero{
+text-align:center;
+padding:60px 20px;
+background:linear-gradient(180deg,#1a1a1a,#000);
+}
+.hero h1{
+font-size:42px;
+color:#ff9800;
+margin-bottom:10px;
+}
+.hero p{
+color:#ccc;
+margin-bottom:20px;
+}
+.btn{
+display:inline-block;
+background:#ff9800;
+color:#000;
+padding:12px 25px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+}
+.section{
+padding:30px 20px;
+}
+.section h2{
+margin-bottom:20px;
+color:#ff9800;
+}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+}
+.card{
+background:#151515;
+border:1px solid #333;
+border-radius:12px;
+padding:15px;
+text-align:center;
+transition:.3s;
+}
+.card:hover{
+transform:translateY(-5px);
+border-color:#ff9800;
+}
+.card img{
+width:100%;
+height:240px;
+object-fit:cover;
+border-radius:8px;
+}
+.price{
+font-size:22px;
+color:#ff9800;
+margin:10px 0;
+font-weight:bold;
+}
+.buy{
+display:block;
+background:#ff9800;
+color:#000;
+padding:10px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+}
+footer{
+text-align:center;
+padding:20px;
+border-top:1px solid #333;
+color:#aaa;
+margin-top:30px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<div class="logo">KAIZEN BOOKS</div>
+<nav>
+<a href="#">Home</a>
+<a href="#books">Books</a>
+<a href="#">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Small Steps. Big Dreams.</h1>
+<p>Premium eBooks to help you learn, grow and earn.</p>
+<a class="btn" href="#books">Explore eBooks</a>
+</section>
+
+<section class="section" id="books">
+<h2>Featured eBooks</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://picsum.photos/300/450?1">
+<h3>30 Days English Speaking</h3>
+<p>Speak confidently in 30 days.</p>
+<div class="price">₹100</div>
+<a class="buy" href="book.html">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/300/450?2">
+<h3>SSC CHSL Quick Guide</h3>
+<p>Exam preparation made simple.</p>
+<div class="price">₹100</div>
+<a class="buy" href="book.html">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/300/450?3">
+<h3>AI Prompts Collection</h3>
+<p>1000+ ready-to-use prompts.</p>
+<div class="price">₹100</div>
+<a class="buy" href="book.html">Buy Now</a>
+</div>
+
+</div>
+</section>
+
+<footer>
+© 2026 Kaizen Books • Read. Learn. Grow.
+</footer>
+
+</body>
+</html>
