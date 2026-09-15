@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kaizen Books - Book</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#0b0b0b;color:#fff}
+header{
+background:#111;
+padding:15px 20px;
+border-bottom:1px solid #ff9800;
+}
+header a{
+color:#ff9800;
+text-decoration:none;
+font-weight:bold;
+font-size:22px;
+}
+.container{
+max-width:1000px;
+margin:auto;
+padding:30px 20px;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:30px;
+}
+img{
+width:100%;
+border-radius:12px;
+}
+.price{
+font-size:34px;
+color:#ff9800;
+margin:15px 0;
+font-weight:bold;
+}
+button{
+width:100%;
+padding:15px;
+background:#ff9800;
+color:#000;
+font-size:18px;
+font-weight:bold;
+border:none;
+border-radius:10px;
+cursor:pointer;
+}
+button:hover{
+background:#ffb733;
+}
+.features{
+margin-top:20px;
+line-height:2;
+color:#ccc;
+}
+footer{
+text-align:center;
+padding:20px;
+border-top:1px solid #333;
+color:#aaa;
+margin-top:30px;
+}
+@media(max-width:700px){
+.container{grid-template-columns:1fr}
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<a href="index.html">← KAIZEN BOOKS</a>
+</header>
+
+<div class="container">
+
+<div>
+<img src="https://picsum.photos/500/700?1" alt="Book Cover">
+</div>
+
+<div>
+<h1>30 Days English Speaking</h1>
+
+<p style="margin-top:10px;color:#ccc;">
+Speak confidently in just 30 days with daily practice,
+real-life conversations and easy Telugu explanations.
+</p>
+
+<div class="price">₹100</div>
+
+<button onclick="goToPayment()">Buy Now</button>
+
+<div class="features">
+✔ Instant PDF Download after payment<br>
+✔ Lifetime Access<br>
+✔ Mobile Friendly<br>
+✔ Secure Payment (Razorpay Coming Next)
+</div>
+
+</div>
+
+</div>
+
+<footer>
+© 2026 Kaizen Books • Read. Learn. Grow.
+</footer>
+
+<script>
+function goToPayment(){
+alert("Razorpay payment next step lo connect chestam.");
+}
+</script>
+
+</body>
+</html>
