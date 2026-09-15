@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>30 Days English Speaking</title>
+<style>
+body{
+  font-family:Arial,sans-serif;
+  background:#fff;
+  color:#222;
+  max-width:800px;
+  margin:auto;
+  padding:30px;
+  line-height:1.8;
+}
+h1,h2{color:#ff9800}
+.day{
+  border-left:5px solid #ff9800;
+  padding-left:15px;
+  margin:25px 0;
+}
+</style>
+</head>
+<body>
+
+<h1>30 Days English Speaking</h1>
+<p><b>Author:</b> Kaizen Books</p>
+<p>Daily 10 minutes practice tho basic English improve chesukovadaniki ee eBook.</p>
+
+<h2>Day 1</h2>
+<div class="day">
+  <p><b>Hello</b> = Namaste</p>
+  <p><b>How are you?</b> = Ela unnaru?</p>
+  <p><b>I am fine.</b> = Nenu bagunnanu.</p>
+</div>
+
+<h2>Day 2</h2>
+<div class="day">
+  <p><b>What is your name?</b> = Mee peru enti?</p>
+  <p><b>My name is Raju.</b> = Na peru Raju.</p>
+</div>
+
+<h2>Day 3</h2>
+<div class="day">
+  <p><b>Where are you from?</b> = Meeru ekkada nunchi vacharu?</p>
+  <p><b>I am from Andhra Pradesh.</b></p>
+</div>
+
+<h2>Day 4</h2>
+<div class="day">
+  <p><b>Thank you.</b> = Dhanyavadalu.</p>
+  <p><b>Please.</b> = Dayachesi.</p>
+</div>
+
+<h2>Day 5</h2>
+<div class="day">
+  <p><b>Good Morning</b></p>
+  <p><b>Good Night</b></p>
+</div>
+
+<p>... Day 6 nunchi Day 30 varaku ilage continue cheyyachu.</p>
+
+<hr>
+<p style="text-align:center;">© 2026 Kaizen Books</p>
+
+</body>
+</html>
